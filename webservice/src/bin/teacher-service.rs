@@ -15,6 +15,8 @@ mod models;
 mod routers;
 #[path = "../state.rs"]
 mod state;
+#[path = "../errors.rs"]
+mod errors;
 
 use routers::*;
 use state::AppState;
